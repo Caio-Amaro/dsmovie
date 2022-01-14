@@ -10,18 +10,21 @@ function Listing() {
             <div className="container">
 
                 <div className="row">
-                    <div className="col">
+                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
                         <MovieCard />
                     </div>
-                    <div className="col">
+                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
                         <MovieCard />
-                    </div>
-                    <div className="col">
+                    </div> 
+                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
                         <MovieCard />
-                    </div>
-                    <div className="col">
+                    </div> 
+                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
                         <MovieCard />
-                    </div>
+                    </div> 
+                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
+                        <MovieCard />
+                    </div>                     
                 </div>
             </div>
 
