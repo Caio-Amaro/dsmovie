@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import {ReactComponent as GitHubIcon} from 'assets/img/github.svg';
 import './style.css';
 
@@ -8,7 +9,7 @@ function Navbar () {
     <header>
       <nav className="container">
         <div className="dsmovie-nav-container">
-          <h1>DSMovie</h1>
+          <h1>DSMovie</h1>          
           <a href="https://github.com/Caio-Amaro"></a>
           <div className="dsmovie-contact-container">
             <GitHubIcon />
